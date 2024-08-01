@@ -9,4 +9,32 @@ html,body{
     width: 700px;
     background-image:url(../../Pictures/samurai.png);
     background-position: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.odis{
+    height: 20vh;
+    width:100%;
+    background: rgba(0, 0, 0, .5); 
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+
+    
+}
+img{
+    height:20vh;
+    opacity: 100;
+}
+.stex{
+    font-family: "samurai";
+    color:white;
+    font-size: 10vh;
+}
+@font-face{
+    font-family:samurai;
+    src: url(../../Documents/fonts/SF-Shai-Fontai/SF_Shai_Fontai.ttf)
 }
